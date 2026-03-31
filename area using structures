@@ -1,0 +1,27 @@
+#include<stdio.h>
+struct circle
+{
+	float radius;
+}c;
+struct rectangle
+{
+	float length;
+	float breadth;
+}r;
+float areacircle(struct circle c){
+return 3.14*c.radius*c.radius;}
+float arearectangle(struct rectangle r)
+{
+	return r.length*r.breadth;
+}
+int main()
+{
+	printf("enter the radius of circle");
+	scanf("%f",&c.radius);
+	printf("enter the length and breadth of rectangle");
+	scanf("%f%f",&r.length,&r.breadth);
+	printf("area of circle is=%.2f\n",areacircle(c));
+	printf("area of rectangle=%.2f",arearectangle(r));
+	
+	return 0;
+}
