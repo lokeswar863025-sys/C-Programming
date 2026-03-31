@@ -1,0 +1,17 @@
+#include<stdio.h>
+struct circle
+{
+	int radius;
+}s1;
+printf''("enter the radius of circle");
+scanf("%d",&s1.radius);
+int a=3.14*s1.radius*s1.radius;
+void display(int x,int y)
+{
+	printf("%d%d",x,y);
+}
+int main()
+{
+	display(s1.radius,a);
+	return 0;
+}
